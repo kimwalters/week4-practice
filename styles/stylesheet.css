@@ -50,6 +50,38 @@ section p { font-size: .7rem;
             line-height: .9rem;
             padding: 0rem 10rem; }
 
+section.second img { width:20%; 
+                     float: left; 
+                     margin: 2rem 0rem 0rem 2rem; 
+                     padding: 3rem;
+                     background-image: url('../images/hipster-bg.jpg'); }
+
+section.second p { float: left;
+                   text-align: left; 
+                   padding: 2rem 0rem 0rem 2rem;
+                   width:30%;
+                   font-size: .8rem; 
+                   line-height: 1rem; }
+
+section.third { overflow: scroll;
+                text-align: left; }
+
+section.third p { display: inline-block;
+                  vertical-align: top;
+                  padding: 2rem 0rem 0rem 2rem;
+                  font-size: .8rem; 
+                  line-height: 1rem; 
+                  width: 70%; }
+
+section.third img { width: 40%; 
+                    padding: 1rem;
+                    display: inline;
+                    border: 1px solid gray; 
+                    margin: 2rem 0rem 0rem 2rem; }
+
+
+section.third p.last { padding-bottom:2rem; }
+
 footer { text-align:center; }
 
 footer img { width: 2rem;
